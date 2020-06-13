@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;800&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header-inner">
+      <div class="container">
+        <nav id="main-nav">
+          <h1 id="logo">FK</h1>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html" >About</a></li>
+            <li><a href="work.html">Work</a></li>
+            <li><a href="contact.html" class="current">Contact</a></li>
+          </ul>
+        </nav>        
+      </div>
+    </header>
+
+    <!-- Section a -->
+    <section id="contact-a" class="text-center py-3">
+      <div class="container">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">Here is how you can reach me</p>
+
+        <form action="POST" data-netlify="true" data-netlify-recaptcha="true">
+          <div class="text-fields">
+            <input class="text-input name-input" name="name" type="text" placeholder="Name">
+            <input class="text-input subject-input" name="subject" type="text" placeholder="Subject">
+            <input class="text-input email-input" name="email" type="email" placeholder="E-mail">
+            <input class="text-input phone-input" name="phone" type="text" placeholder="Phone">
+            <textarea class="text-input message-input" name="message" placeholder="Message"></textarea>
+            <div class="my-2">
+              <div data-netlify-recaptcha="true"></div>
+            </div>
+          </div>
+          <button class="btn-dark" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Section b -->
+    <section id="contact-b" class="bg-dark py-3">
+      <div class="container">
+        <div class="contact-info">
+          <div>
+            <i class="fas fa-envelope fa-2x"></i>
+            <h3>E-mail</h3>
+            <p>fabiokounang11@gmail.com</p>
+          </div>
+          <div>
+            <i class="fas fa-phone fa-2x"></i>
+            <h3>E-mail</h3>
+            <p>+681242994000</p>
+          </div>
+          <div>
+            <i class="fas fa-address-card fa-2x"></i>
+            <h3>Address</h3>
+            <p>Main Street Foresta</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section c -->
+    <section id="contact-c" class="text-center bg-main py-4">
+      <h1>Let's start work your next project</h1>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2020. All Rights Reserved</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-linkedin"></i>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
